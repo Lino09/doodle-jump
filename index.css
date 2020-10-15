@@ -1,0 +1,39 @@
+
+ #grid {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     width: 400px;
+     height: 600px;
+     background-image:url('./media/bg-matrix.gif'); 
+     position: relative;
+     font-size: 180px;
+     text-align: center;
+     color: whitesmoke;
+ }
+
+ div .gameButton {
+    font-size: 40px;
+}
+#scoreStreak {
+    display:none;
+    font-size: 120px;
+}
+#rePlayButton {
+    display: none;
+}
+
+ .doodler {
+     width: 60px;
+     height: 85px;
+     background-color: turquoise;
+     position: absolute;
+ }
+
+ .platform{
+     width: 85px;
+     height: 15px;
+     background-color: greenyellow;
+     position: absolute;
+ }
