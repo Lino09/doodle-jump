@@ -6,7 +6,7 @@
      align-items: center;
      width: 400px;
      height: 600px;
-     background-image:url('./media/bg-matrix.gif'); 
+     background-image:url('./media/froze-bg.png'); 
      position: relative;
      font-size: 180px;
      text-align: center;
@@ -26,14 +26,14 @@
 
  .doodler {
      width: 60px;
-     height: 85px;
-     background-color: turquoise;
+     height: 70px;
+     background-image: url(./media/jumper.png);
      position: absolute;
  }
 
  .platform{
      width: 85px;
      height: 15px;
-     background-color: greenyellow;
+     background-image: url(./media/base.png);
      position: absolute;
  }
